@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@font-face {
+font-family: "Banny"; 
+src: url("../fonts/Banny-BoldRound.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	/*height: 100%;*/
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: #E5E5E5;
+}
+.specialties:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+a {
+	text-decoration: none;
+}
+span{
+	display: block;
+	height: 4px;
+	width: 30px;
+	background-color: #000;
+	margin: 6px 0;
+	border-radius: 10px;
+}
+.header {
+	background-image: url(../img/header-bg.png);
+	background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+    min-height: 810px;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+.header-top{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 150px;
+}
+.menu {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	display: flex;
+}
+.menu__item a{
+	text-decoration: none;
+	color: #fff;
+}
+.menu__item {
+	list-style-type: none;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	padding:43px;
+	margin: 1px;
+}
+.menu__item a:hover{
+	color: #E8C300;
+	transition: .2s;
+	text-decoration-line: underline;
+    text-underline-offset: 4px;
+}
+.burger-menu, .menu__box{
+	/*display: none;*/
+}
+.logo {
+	margin: 25px 35px 0;
+}
+.navigation {
+
+}
+.header-main {
+	display: flex;
+	justify-content: space-between;
+}
+.main-header__content {
+
+}
+.main-header__aside {	
+	transform: rotate(-90deg);
+	color: #fff;
+	margin-top: 10px;
+}
+.aside{
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 12px;
+	letter-spacing: 0em;
+}
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	position: relative;
+	right: 100px;
+}
+.title__over {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	text-align: center;
+}
+.title__over-header{
+	margin-bottom: 10px;
+}
+.title-view{
+	font-family: "Banny";
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.title-view:after{
+	content: "";
+	background: #E8C300;
+	border-radius: 5px;
+	height: 5px;
+	width: 60px;
+	margin-top:10px;
+}
+.aboutus__title-view{
+	color: #000;
+}
+.header-title{
+	font-size: 3.1em;
+	color: #fff;
+}
+.title-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin:10px 20px 0 0;
+}
+.button{
+	display: block;
+	padding: 23px 70px;
+	color: #fff;
+	background: #E8C300;
+	border-radius: 5px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin:0 20px;
+
+}
+.header-contacts {
+	display: flex;
+}
+.contacts {
+	list-style-type: none;
+}
+.contacts__item{
+	height: 65px;
+	width: 66px;
+	margin-bottom: 10px;
+}
+/*.contacts__item:hover {
+	border-radius: 100px;
+	border: 2px solid #63c;
+	transition: .2s;
+}*/
+/*анимация при наведении.не доработана*/
+.header__scroll{
+	height: 60px;
+	width: 60px;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	margin: 80px auto;
+	position: relative;
+}
+.header__scroll-inner{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #e5e5e5;
+	border-radius: 20px;
+	background-color: #fff;
+	margin:9px auto;
+	text-align: center;
+}
+.header__scroll:after{
+	content: "";
+	display: block;
+	height: 8px;
+	width: 8px;
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	transform: rotate(135deg);
+	position: relative;
+	bottom: 37px;
+	left: 24px;
+}
+.main {
+	/*overflow-y: hidden;*/
+}
+.aboutus{
+	min-height: 678px;
+	background-color: #fff;
+	/*overflow-y: hidden;*/
+}
+.aboutus-content {
+	
+}
+.main-content{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:100px 0;
+	min-width: 600px;
+}
+.aboutus-text{
+	width: 600px;
+}
+.about-image {
+	background-image: url(../img/ab.png); 
+	margin-right: 110px;
+}
+.main-image{
+	filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
+	background-repeat: no-repeat;
+	width: 478px;
+	height: 478px;
+	display: flex;
+	justify-content: space-between;
+}
+.main-image_after{
+	content: " ";
+	height: 250px;
+	width: 250px;
+	border:20px solid #E8C300;
+	border-radius: 5px;
+	padding: 0px;
+	left:350px;
+	top:115px;
+	position: relative;
+	filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+	z-index: 0;
+}
+.title__under{
+	font-family: Open Sans;
+	text-align: center;
+	list-style-type: none;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.title__text{
+	font-family: Open Sans;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	list-style-type: none;
+}
+
+.team {
+	height: 678px;
+	background-image: url(../img/masterchef_bg.png);
+	max-width: 100%
+}
+.team-image{
+	background-image: url(../img/team-img.png); 
+	margin-left: 110px;
+	max-width: 100%;
+}
+.team-text {
+	color: #fff;
+	max-width: 625px;
+}
+.team__title-view {
+	color: #fff;
+}
+.team-content{
+
+}
+.main-image_before{
+	content: " ";
+	height: 250px;
+	width: 250px;
+	border:20px solid #E8C300;
+	border-radius: 5px;
+	padding: 0px;
+	right:115px;
+	top:115px;
+	position: relative;
+	filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+}
+.title__over-team{
+	position: relative;
+	top: 40px;
+}
+.reservation {
+	background-color: #fff;
+}
+.reservation-image{
+
+}
+.reservation-content {
+	display: flex;
+	justify-content: space-between;
+}
+.reservation-buttons {
+	display: flex-inline;
+	flex-flow: row wrap;
+	display:flex;
+  	max-width:564px; /*растягиваем тексовое поле на всю ширину родителя*/
+  	flex-grow: 2;
+  	margin-left: 70px;
+}
+.placeholder {
+	margin:6px;
+	height: 60px;
+	padding-left:25px;
+	width: 270px;
+	border-radius: 7px;
+	border: none;
+	background: #E5E5E5;
+}
+.placeholder:focus{
+	border-radius: 7px;
+}
+.reservation__title-view{
+	color: #000;
+	align-self: end;
+	width: 100%;
+	text-align: center;
+}
+.reservation-image{
+	background-image: url(../img/reservation-img.png);
+	margin-right: 110px;
+}
+.reservation__aside{
+	position: relative;
+	bottom: 40px;
+	color: rgba(151, 151, 151, 1);
+}
+.reservation__submit{
+	max-width: 553px;
+	width: 100%;
+}
+.submit{
+	border-radius: 7px;
+	margin:6px;
+	height: 60px;
+	padding:23px;
+	border-radius: 7px;
+	border: none;
+	background: #E8C300;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+}
+.specialties {
+	height: 675px;
+	background-image: url(../img/specialties-bg.png);
+
+}
+
+.title__over-specialties {
+	position: relative;
+	text-align: center;
+	top: 40px;
+	letter-spacing: 3;
+}
+.specialties-content {
+	color: #fff;
+	justify-content: space-between;
+}
+.specialties-image {
+	background-image: url(../img/specialties-img.png); 
+	margin-left: 110px;
+}
+.specialties-text {
+	max-width: 630px;
+}
+.specialties__title-view {
+	color: #fff;
+}
+.specialties-slider {
+	position: relative;
+	bottom: 60px;
+	display: flex;
+	max-width: 110px;
+	margin: 0 auto;
+}
+.specialties-slider__item{
+	width: 10px;
+	height: 10px;
+	background-color: #c0c0c0;
+	border-radius: 10px;
+	margin: 0 10px;
+}
+.dmenu {
+	background-color: #fff;
+}
+.dmenu-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.dmenu__title-view {
+
+}
+.dmenu-section {
+	display: flex;
+	margin: 50px auto;
+}
+.dmenu-section__item {
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	padding: 1.5em 0;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 18px;
+	letter-spacing: 0em;
+}
+.dmenu-section__item:not(:last-child){
+	border-right: 1px solid rgba(51, 51, 51, 0.2);
+}
+.dmenu-section__item:hover{
+	border-right: 1px solid #E8C300;
+	border-left: 1px solid #E8C300;
+}
+.dmenu-text{
+
+}
+.dmenu-list {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	color: rgba(51, 51, 51, 0.8);
+}
+.dmenu-column {
+	list-style-type: none;
+}
+.dmenu-column__item {
+	font-family: Banny;
+	font-size: 18px;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.dmenu-column__item_under {
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(51, 51, 51, 0.6);
+}
+.dmenu-column__item_under:not(:last-child){
+	margin-bottom: 30px;
+}
+.events {
+	background-image: url(../img/specialties-bg.png);
+	height: 675px;
+}
+
+.title__over-events {
+	position: relative;
+	text-align: center;
+	top: 40px;
+
+}
+.events-content {
+	justify-content: space-around;
+}
+
+.events-image_first {
+	background-image: url(../img/wedding-img.png); 
+	margin-left: 125px;
+}
+.events-image_second {
+	background-image: url(../img/corpo-img.png); 
+	margin-right: 125px;
+}
+.events__aside {
+	position: relative;
+	bottom: 60px;
+	max-width: 600px;
+	display: flex;
+	margin: 0 auto;
+	color: #fff;
+	color: rgba(151, 151, 151, 1);
+}
+.events-image__item_first {
+	position: relative;
+	background-color: #000;
+	width: 80px;
+	height: 476px;
+	bottom: 1px;
+}
+.events-image__item_second {
+	position: relative;
+	background-color: #000;
+	width: 80px;
+	height: 476px;
+	right: 400px;
+	bottom: 1px;
+}
+.events__aside_first{
+	text-align: center;
+	color: #fff;
+	font-family: "Banny";
+	text-align: center;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.5em;
+	transform: rotate(90deg) translate(70px, 0px);
+}
+.events__aside_second{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: "Banny";
+	text-align: center;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.5em;
+	transform: rotate(-90deg) translate(-310px, 0px);
+	white-space:nowrap;
+}
+.events-image_third {
+	display:none;
+	visibility: hidden;
+	background-image: url(../img/corpo-img.png); 
+}
+.events-image__item_third {
+	position: relative;
+	background-color: #000;
+	width: 81px;
+	height: 476px;
+	right: 398px;
+	bottom: 1px;
+}
+.events__aside_third {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: "Banny";
+	text-align: center;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 1.5em;
+	transform: rotate(-90deg) translate(-220px, 0px);
+	white-space:nowrap;
+}
+.rectangle {
+	background-color: #000;
+	display: flex;
+	/*overflow: hidden;*/
+}
+.rectangle-image {
+	background-image: url(../img/rectangle1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	max-height: 360px;
+	height: 360px;
+	width: 360px ;
+}
+.contact {
+	background-color: #fff;
+	padding: 100px 0;
+}
+.contact-content {
+
+}
+.contact-text {
+ 	margin-bottom: 50px;
+}
+.contact__title-view {
+
+}
+.contact-form {
+
+}
+.contact-item {
+	display: flex;
+}
+.contact-item__place {
+	width: 100%;
+	flex-grow: 1;
+	margin: 6px;
+	height: 60px;
+	padding-left:25px;
+	width: 270px;
+	border-radius: 7px;
+	border: none;
+	background: #E5E5E5;
+}
+.contact-item__text{
+	width: 100%;
+	flex-grow: 1;
+	margin: 6px;
+	height: 120px;
+	padding:0 0 60px 25px;
+	width: 270px;
+	border-radius: 7px;
+	border: none;
+	background: #E5E5E5;
+
+}	
+.coctact-item__contacts {
+	display: flex;
+	/*flex-grow: 1;*/
+	white-space: nowrap;
+	padding: 25px 0;
+	margin: 0 10px;
+	font-family: Font Awesome 5 Free;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 14px;
+	color: rgba(151, 151, 151, 1);
+}
+.contact__submit {
+	width: 100%;
+}
+.fa{
+	margin-right:10px;
+	color: #E8C300;
+}
+.contact-item_inner{
+	display: flex;
+	width: 50%;
+}
+.map{
+	display:block;
+	max-width:1440px;
+	width:100%; 
+	height:470px;  
+}
+.footer{
+	background-color: black;
+	padding: 44px 0;
+	overflow-y: hidden;
+}
+.footer-content{
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 12px;
+	letter-spacing: 0em;
+	text-align: center;
+	color:rgba(151, 151, 151, 1);
+}

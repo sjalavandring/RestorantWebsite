@@ -1,0 +1,716 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1280px) {
+	.container{
+		width: 98%;
+	}
+	.header{
+		max-width: 1280px;
+		overflow: hidden;
+	}
+	.header-top{
+		margin-bottom: 145px;
+	}
+	.main-content{
+		display: flex;
+		justify-content: space-around;
+	}
+	.main-image_before{
+		right: 90px;
+	}
+	.main-image_after{
+		left: 325px;
+	}
+	.reservation-buttons {
+	  	margin-left: 25px;
+	}
+	.aboutus-text{
+		max-width: 470px;
+	}
+	.team-text{
+		max-width: 470px;
+	}
+	.specialties-text{
+		max-width: 470px;
+	}
+	.coctact-item__contacts {
+		padding: 30px 0;
+		margin: 0 5px;
+		font-size: 14px;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container{
+		width: 98%;
+	}
+	.main-content{
+		display: flex;
+		justify-content: space-around;
+	}
+	.menu__item {
+		padding: 43px 20px;
+	}
+	.header-title{
+		font-size: 2.5em;
+	}
+	.main-header__aside{
+		margin-top: 0px;
+	}
+	.main-image{
+		overflow-y: hidden;
+	}
+	.button{
+		padding: 13px 50px;
+	}
+	.main-image_after{
+		display: none;
+		visibility: hidden;
+	}
+	.title__over{
+		font-size: 10px;
+		letter-spacing: 5px;
+	}
+	.title-view{
+		font-size: 1.8em;
+		margin-bottom: 10px;
+	}
+	.title-view:after{
+		content: "";
+		width: 50px;
+	}
+	.aboutus{
+		max-width: 1199px;
+		overflow-y: hidden;
+	}
+	.about-image{
+		margin-right: 0px;
+		
+	}
+	.aboutus-text{
+		max-width: 450px;
+	}
+	.title__under{
+		font-size: 16px;
+	}
+	.title__text{
+		font-size: 12px;
+	}
+	.main-image_before{
+		display: none;
+		visibility: hidden;
+	}
+	.team-text{
+		max-width: 450px;
+	}
+	.team-image{
+		margin-left: 0px;
+	}
+	.reservation-buttons {
+	  	margin-left: 0px;
+	}
+	.reservation-image{
+		margin-right: 0px;
+	}
+	.reservation-buttons {
+	  	max-width:460px; /*растягиваем тексовое поле на всю ширину родителя*/
+	}
+	.placeholder{
+		height: 50px;
+		padding-left:20px;
+		width: 218px;
+	}
+	.specialties-image{
+		margin-left: 0px;
+	}
+	.specialties-text{
+		max-width: 450px;
+	}
+	.dmenu-column__item {
+		font-size: 14px;
+		line-height: 15px;
+	}
+	.dmenu-column__item_under:not(:last-child){
+		margin-bottom: 15px;
+	}
+	.dmenu-column__item_under {
+		font-size: 10px;
+	}
+	.events-image_first {
+		margin-left: 0px;
+		bottom: 1px;
+		overflow: hidden;
+	}
+	.events-image_second {
+		margin-right: 0px;
+		bottom: 1px;
+		overflow: hidden;
+	}
+	.events-image__item_second {
+		right: 1px;
+
+	}
+	.events-image__item_first {
+		left: 398px;
+	}
+	.coctact-item__contacts {
+		display: flex;
+		white-space: nowrap;
+		padding: 30px 0;
+		margin: 0 7px;
+		font-size: 12px;
+	}
+	.fa{
+		display: none;
+		visibility: hidden;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.container{
+		width: 98%;
+	}
+	.main-content{
+		display: flex;
+		padding: 50px 0;
+		max-width: 100%;
+	}
+	.menu__item {
+		padding: 43px 10px;
+	}
+	.header{
+		overflow-y: hidden;
+
+	}
+	.header-top{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 120px;
+	}
+	.logo {
+		margin: 15px 0px 0 5px;
+	}
+	.header-title{
+		font-size: 1.5em;
+	}
+	.main-header__aside{
+		margin-top: 0px;
+	}
+	.button{
+		padding: 25px 40px;
+	}
+	.aboutus{
+		max-height: 678px;
+	}
+	.aboutus-content{
+		flex-direction: column;
+	}
+	.aboutus-text{
+		margin-bottom: 20px;
+	}
+	.about-image{
+		margin-right: 0px;
+		background-size: 80%;
+		margin-left: 100px;
+	}
+	.main-image_after{
+		display:none;
+		visibility: hidden;
+	}
+	.title__over{
+		font-size: 10px;
+		letter-spacing: 5px;
+	}
+	.title-view{
+		margin-bottom: 10px;
+	}
+	.title-view:after{
+		content: "";
+		width: 50px;
+	}
+	.
+	.aboutus-text{
+		max-width: 450px;
+	}
+	.title__under{
+		font-size: 16px;
+	}
+	.title__text{
+		font-size: 12px;
+	}
+	.main-image_before{
+		display:none;
+		visibility: hidden;
+	}
+	.team {
+		max-height: 678px;
+	}
+	.team-content{
+		flex-direction: column-reverse;
+	}
+	.team-text{
+		max-width: 600px;
+		margin: 0 auto 20px;
+	}
+	.title__over-team{
+		top: 20px;
+	}
+	.team-image{
+		background-size: 80%;
+		margin-left: 100px;
+/*		position: absolute;
+		visibility: hidden;*/
+	}
+	.reservation-buttons {
+	  	margin-left: 0px;
+	}
+	.reservation-image{
+		margin-right: 0px;
+		display:none;
+		visibility: hidden;
+	}
+	.reservation-buttons {
+	  	max-width:100%; /*растягиваем тексовое поле на всю ширину родителя*/
+	}
+	.reservation__submit{
+		max-width: 100%;
+	}
+	.placeholder{
+		width: 100%;
+		flex-grow: 1;
+		height: 60px;
+		width: 270px;
+	}
+	.specialties-content{
+		flex-direction: column-reverse; 
+	}
+	.specialties-image{
+		margin-left: 0px;
+		background-size: 80%;
+		margin-left: 100px;
+	}
+	.specialties-text{
+		max-width: 600px;
+		margin-bottom: 20px;
+	}
+	.specialties-slider {
+		bottom: 135px;
+	}
+	.dmenu-column__item {
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.dmenu-section__item {
+		width: 80px;
+		height: 40px;
+		text-align: center;
+		padding: 1.5em 0;
+		font-family: Open Sans;
+		font-size: 12px;
+		font-style: normal;
+		line-height: 18px;
+	}
+	.dmenu-column__item_under:not(:last-child){
+		margin-bottom: 15px;
+	}
+	.dmenu-column__item_under {
+		font-size: 10px;
+	}
+	.events{
+		/*overflow: hidden;*/
+	}
+	.events-content{
+
+	}
+	.events__aside_first{
+		/*transform: rotate(0deg) translate(0px, 0px);*/
+	}
+	.events__aside_second{
+		transform: rotate(-90deg) translate(-222px, 0px);
+		white-space:nowrap;
+	}
+	.events-image_first{
+		display:none;
+		visibility: hidden;
+	}
+	.events-image_second {
+		display:none;
+		visibility: hidden;
+	}
+	.events-image__item_second {
+		right: 1px;
+		height: 385px;
+		width: 81px;
+	}
+	.events-image__item_first {
+		right: 1px;
+		height: 385px;
+		width: 81px;
+	}
+	.events-image_third {
+		visibility: visible;
+		display: block;
+		margin-top: 20px;
+	}
+	.events-image__item_third {
+		right: 1px;
+		height: 475px;
+		width: 81px;
+	}
+	.events__aside_third {
+
+	}
+	.events__aside {
+		bottom: 0px;
+		margin: 0 auto;
+		max-width: 520px;
+		text-align: center;
+	}
+	.contact-item:last-child{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.coctact-item__contacts {
+		display: flex;
+		white-space: nowrap;
+		padding: 30px 0;
+		margin: 0 7px;
+		font-size: 12px;
+		margin: 0 10px;
+	}
+	.coctact-item__contacts {
+		padding: 10px 0;
+		font-size: 14px;
+	}
+	.contact-item_inner:first-child{
+		max-width:650px;
+		margin: auto; 
+	}
+	.contact-item_inner{
+		width: 100%;
+	}
+	.fa{
+		position: static;
+		visibility: visible;
+
+	}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	html {
+		/*overflow:  hidden;*/
+	}
+	.container{
+		width: 98%;
+	}
+	.main-content{
+		display: flex;
+		padding: 50px 0;
+		max-width: 100%;
+	}
+	.menu__item {
+		padding: 43px 10px;
+	}
+	.header{
+		overflow-y: hidden;
+
+	}
+	.header-top{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 120px;
+	}
+	.logo {
+		margin: 15px 0px 0 5px;
+	}
+	.navigation{
+		display: none;
+	}
+	.burger-menu{
+		position: absolute;
+		top: 40px;
+		right: 45px;
+		display: block;
+	}
+
+	.burger-menu > span {
+		background-color: #E8c300;
+		display: block;
+		height: 6px;
+		width: 65px;
+		margin: 14px 0;
+		border-radius: 10px;
+	}
+	.menu__box {
+		font-family: "Banny";
+		position: absolute;
+		background-color: #E8c300;
+		width: 280px;
+		height: 100%;
+		position: left;
+		top: 0px;
+		right: 0px;
+		z-index: 2;
+		/*display: block;*/
+	}
+	.menu__list {
+		margin:50px 0 0 90px;
+		list-style-type: none;
+		text-transform: uppercase;
+		/*font-family: 'Open Sans', sans-serif;*/
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 18px;
+	}
+	.menu__list_title{
+		text-transform: uppercase;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 18px;
+	}
+	.menu__list-item {
+		margin: 15px;
+	}
+	.menu__list-item > a{
+		color: #fff;
+	}
+	.menu__list-top{
+		display: flex;
+		justify-content: space-between;
+		margin: 20px;
+		align-items: center;
+	}
+	.menu__list-exit > span:first-child{
+		position: relative;
+		top:5px;
+		transform: rotate(45deg);
+	}
+	.menu__list-exit > span:last-child{
+		position: relative;
+		bottom:5px;
+		transform: rotate(-45deg);
+	}
+	.header-title{
+		font-size: 1.5em;
+	}
+	.main-header__aside{
+		margin-top: 0px;
+	}
+	.button{
+		padding: 25px 40px;
+	}
+	.aboutus{
+		max-height: 678px;
+	}
+	.aboutus-content{
+		flex-direction: column;
+	}
+	.aboutus-text{
+		margin-bottom: 20px;
+	}
+	.about-image{
+		margin-right: 0px;
+		background-size: 80%;
+		margin-left: 100px;
+	}
+	.main-image_after{
+		display:none;
+		visibility: hidden;
+	}
+	.title__over{
+		font-size: 10px;
+		letter-spacing: 5px;
+	}
+	.title-view{
+		margin-bottom: 10px;
+	}
+	.title-view:after{
+		content: "";
+		width: 50px;
+	}
+	.
+	.aboutus-text{
+		max-width: 450px;
+	}
+	.title__under{
+		font-size: 16px;
+	}
+	.title__text{
+		font-size: 12px;
+	}
+	.main-image_before{
+		display:none;
+		visibility: hidden;
+	}
+	.team {
+		max-height: 678px;
+	}
+	.team-content{
+		flex-direction: column-reverse;
+	}
+	.team-text{
+		max-width: 600px;
+		margin: 0 auto 20px;
+	}
+	.title__over-team{
+		top: 20px;
+	}
+	.team-image{
+		background-size: 80%;
+		margin-left: 100px;
+/*		position: absolute;
+		visibility: hidden;*/
+	}
+	.reservation-buttons {
+	  	margin-left: 0px;
+	}
+	.reservation-image{
+		margin-right: 0px;
+		display:none;
+		visibility: hidden;
+	}
+	.reservation-buttons {
+	  	max-width:100%; /*растягиваем тексовое поле на всю ширину родителя*/
+	}
+	.reservation__submit{
+		max-width: 100%;
+	}
+	.placeholder{
+		width: 100%;
+		flex-grow: 1;
+		height: 60px;
+		width: 270px;
+	}
+	.specialties-content{
+		flex-direction: column-reverse; 
+	}
+	.specialties-image{
+		margin-left: 0px;
+		background-size: 80%;
+		margin-left: 100px;
+	}
+	.specialties-text{
+		max-width: 600px;
+		margin-bottom: 20px;
+	}
+	.specialties-slider {
+		bottom: 135px;
+	}
+	.dmenu-column__item {
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.dmenu-section__item {
+		width: 80px;
+		height: 40px;
+		text-align: center;
+		padding: 1.5em 0;
+		font-family: Open Sans;
+		font-size: 12px;
+		font-style: normal;
+		line-height: 18px;
+	}
+	.dmenu-column__item_under:not(:last-child){
+		margin-bottom: 15px;
+	}
+	.dmenu-column__item_under {
+		font-size: 10px;
+	}
+	.events{
+		/*overflow: hidden;*/
+	}
+	.events-content{
+
+	}
+	.events__aside_first{
+		/*transform: rotate(0deg) translate(0px, 0px);*/
+	}
+	.events__aside_second{
+		transform: rotate(-90deg) translate(-222px, 0px);
+		white-space:nowrap;
+	}
+	.events-image_first{
+		display:none;
+		visibility: hidden;
+	}
+	.events-image_second {
+		display:none;
+		visibility: hidden;
+	}
+	.events-image__item_second {
+		right: 1px;
+		height: 385px;
+		width: 81px;
+	}
+	.events-image__item_first {
+		right: 1px;
+		height: 385px;
+		width: 81px;
+	}
+	.events-image_third {
+		visibility: visible;
+		display: block;
+		margin-top: 20px;
+	}
+	.events-image__item_third {
+		right: 1px;
+		height: 475px;
+		width: 81px;
+	}
+	.events__aside_third {
+
+	}
+	.events__aside {
+		bottom: 0px;
+		margin: 0 auto;
+		max-width: 520px;
+		text-align: center;
+	}
+	.contact-item:last-child{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.coctact-item__contacts {
+		display: flex;
+		white-space: nowrap;
+		padding: 30px 0;
+		margin: 0 7px;
+		font-size: 12px;
+		margin: 0 10px;
+	}
+	.coctact-item__contacts {
+		padding: 10px 0;
+		font-size: 14px;
+	}
+	.contact-item_inner:first-child{
+		max-width:650px;
+		margin: auto; 
+	}
+	.contact-item_inner{
+		width: 100%;
+	}
+	.fa{
+		display: block;
+		visibility: visible;
+
+	}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+}
